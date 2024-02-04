@@ -15,6 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FE113756-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jodre11.EnumerateImplementations.Test.Console", "Test\Jodre11.EnumerateImplementations.Test.Console\Jodre11.EnumerateImplementations.Test.Console.csproj", "{A1B1F424-7E81-4372-8054-C7842E5BB64B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{0A61F0CA-D1A2-4396-9BDA-C39FF30F6AEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{682F5282-24AA-4A09-B49C-C9D91B3AEF47}"
+    ProjectSection(SolutionItems) = preProject
+        dotnet.yml = .github\workflows\dotnet.yml
+    EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,5 +42,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A1B1F424-7E81-4372-8054-C7842E5BB64B} = {FE113756-E35F-4FD5-A163-514BFCF4A1FB}
+		{0A61F0CA-D1A2-4396-9BDA-C39FF30F6AEB} = {92B032B2-227B-47EE-897C-5EA03A043B8D}
+		{682F5282-24AA-4A09-B49C-C9D91B3AEF47} = {0A61F0CA-D1A2-4396-9BDA-C39FF30F6AEB}
 	EndGlobalSection
 EndGlobal
