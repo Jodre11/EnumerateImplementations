@@ -11,6 +11,7 @@
     <ProjectReference Include="..\..\Jodre11.EnumerateImplementations\Jodre11.EnumerateImplementations.csproj"
                       OutputItemType="Analyzer"
                       ReferenceOutputAssemply="false"/>
+    <ProjectReference Include="..\SomeClassLibrary\SomeClassLibrary.csproj" />
   </ItemGroup>
 
 </Project>
