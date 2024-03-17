@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Jodre11.EnumerateImplementations": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "../Test/Jodre11.EnumerateImplementations.Test.Console/Jodre11.EnumerateImplementations.Test.Console.csproj"
+    }
+  }
+}
